@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>FrameDifference.h</itemPath>
+      <itemPath>LanguageDictionary.h</itemPath>
+      <itemPath>TextBinaryTree.h</itemPath>
+      <itemPath>Utility.h</itemPath>
+      <itemPath>VideoShot.h</itemPath>
+      <itemPath>detectOCR.h</itemPath>
+      <itemPath>extractMetaData.h</itemPath>
+      <itemPath>faceDetect.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>FrameDifference.cpp</itemPath>
+      <itemPath>LanguageDictionary.cpp</itemPath>
+      <itemPath>TextBinaryTree.cpp</itemPath>
+      <itemPath>Utility.cpp</itemPath>
+      <itemPath>VideoShot.cpp</itemPath>
+      <itemPath>detectOCR.cpp</itemPath>
+      <itemPath>extractMetaData.cpp</itemPath>
+      <itemPath>faceDetect.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f1"
+                     displayName="New C++ Simple Test"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>tests/newsimpletest.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+        <linkerTool>
+          <linkerDynSerch>
+            <pElem>/usr/lib</pElem>
+          </linkerDynSerch>
+          <linkerLibItems>
+            <linkerLibLibItem>opencv_calib3d</linkerLibLibItem>
+            <linkerLibLibItem>opencv_contrib</linkerLibLibItem>
+            <linkerLibLibItem>opencv_core</linkerLibLibItem>
+            <linkerLibLibItem>opencv_features2d</linkerLibLibItem>
+            <linkerLibLibItem>opencv_flann</linkerLibLibItem>
+            <linkerLibLibItem>opencv_gpu</linkerLibLibItem>
+            <linkerLibLibItem>opencv_highgui</linkerLibLibItem>
+            <linkerLibLibItem>opencv_imgproc</linkerLibLibItem>
+            <linkerLibLibItem>opencv_legacy</linkerLibLibItem>
+            <linkerLibLibItem>opencv_ml</linkerLibLibItem>
+            <linkerLibLibItem>opencv_objdetect</linkerLibLibItem>
+            <linkerLibLibItem>opencv_video</linkerLibLibItem>
+            <linkerLibLibItem>boost_regex</linkerLibLibItem>
+            <linkerLibLibItem>boost_filesystem</linkerLibLibItem>
+            <linkerLibLibItem>boost_system</linkerLibLibItem>
+            <linkerLibLibItem>lept</linkerLibLibItem>
+            <linkerLibLibItem>tesseract</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="FrameDifference.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FrameDifference.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LanguageDictionary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LanguageDictionary.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TextBinaryTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TextBinaryTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utility.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Utility.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VideoShot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VideoShot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="detectOCR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="detectOCR.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="extractMetaData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="extractMetaData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <item path="faceDetect.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="faceDetect.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/newsimpletest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+        <linkerTool>
+          <linkerDynSerch>
+            <pElem>/usr/lib</pElem>
+          </linkerDynSerch>
+          <linkerLibItems>
+            <linkerLibLibItem>opencv_calib3d</linkerLibLibItem>
+            <linkerLibLibItem>opencv_contrib</linkerLibLibItem>
+            <linkerLibLibItem>opencv_core</linkerLibLibItem>
+            <linkerLibLibItem>opencv_features2d</linkerLibLibItem>
+            <linkerLibLibItem>opencv_flann</linkerLibLibItem>
+            <linkerLibLibItem>opencv_gpu</linkerLibLibItem>
+            <linkerLibLibItem>opencv_highgui</linkerLibLibItem>
+            <linkerLibLibItem>opencv_imgproc</linkerLibLibItem>
+            <linkerLibLibItem>opencv_legacy</linkerLibLibItem>
+            <linkerLibLibItem>opencv_ml</linkerLibLibItem>
+            <linkerLibLibItem>opencv_objdetect</linkerLibLibItem>
+            <linkerLibLibItem>opencv_video</linkerLibLibItem>
+            <linkerLibLibItem>boost_regex</linkerLibLibItem>
+            <linkerLibLibItem>boost_filesystem</linkerLibLibItem>
+            <linkerLibLibItem>boost_system</linkerLibLibItem>
+            <linkerLibLibItem>lept</linkerLibLibItem>
+            <linkerLibLibItem>tesseract</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="FrameDifference.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FrameDifference.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="LanguageDictionary.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="LanguageDictionary.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TextBinaryTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TextBinaryTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utility.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Utility.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VideoShot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VideoShot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="detectOCR.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="detectOCR.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="extractMetaData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="extractMetaData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <item path="faceDetect.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="faceDetect.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="tests/newsimpletest.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
